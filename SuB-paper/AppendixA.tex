@@ -1,0 +1,163 @@
+%!TEX TS-program = pdflatex
+\documentclass[a4paper,12pt]{article}
+
+\usepackage{mathptmx}
+\usepackage{parskip}
+\usepackage[top=1.5in,left=1in,right=1in,bottom=1in]{geometry}
+%\setlength{\parindent}{0pt}
+%\setlength{\parskip}{\the\baselineskip}
+\pagestyle{empty} 
+
+\makeatletter
+\renewcommand\@makefntext[1]{%
+  \parindent 1em\noindent
+  \hbox{\@makefnmark}#1}
+\renewcommand\large{\@setfontsize\large{14pt}{18}} % For standardizing with the Word template: normally \large is 14.4pt
+\makeatother
+\usepackage{titlesec}
+\titleformat{\subsection}{\normalfont\normalsize}{\thesubsection.}{1ex}{}
+\titleformat{\subsubsection}{\normalfont\normalsize}{\thesubsubsection.}{1ex}{}
+\titleformat{\section}{\normalfont\normalsize\bfseries}{\thesection.}{1ex}{}
+\titlespacing*{\section}{0pt}{*0}{0pt}
+\titlespacing*{\subsection}{0pt}{\the\baselineskip}{0pt}
+
+\usepackage{natbib} 
+\bibpunct{(}{)}{;}{a}{,}{,}
+
+\def\bad{{\leavevmode\llap{*}}}
+\def\marginal{{\leavevmode\llap{?}}}
+\def\verymarginal{{\leavevmode\llap{??}}}
+\def\swmarginal{{\leavevmode\llap{4}}}
+\def\infelic{{\leavevmode\llap{\#}}}
+
+\newcommand{\6}{\mbox{$[\hspace*{-.6mm}[$}} 
+\newcommand{\9}{\mbox{$]\hspace*{-.6mm}]$}}
+\newcommand{\sem}[2]{\6#1\9$^{#2}$}
+\newcommand{\mes}[1]{\6#1\9}
+
+\RequirePackage[hyphens]{url}
+\usepackage{enumitem,xcolor,color,graphbox,amsmath,amssymb,float,subcaption,hyperref,gb4e}
+%\PassOptionsToPackage{hyphens}{url}\usepackage{hyperref}
+%\usepackage[hyphens]{url}
+
+\newcommand{\citepos}[1]{\citeauthor{#1}'s \citeyear{#1}}
+\newcommand{\citetpos}[1]{\citeauthor{#1}'s (\citeyear{#1})}
+
+\setlength{\bibsep}{0pt} \relax
+\setcitestyle{notesep={: },yysep={, }} \relax
+
+\begin{document}
+
+Tonhauser, Judith, Marie-Catherine de Marneffe, Shari R.\ Speer and Jon Stevens. 2019. {\em On the information structure sensitivity of projective content}, Proceedings of {\em Sinn und Bedeutung 23}. 
+
+\url{https://github.com/judith-tonhauser/projectivity-and-focus-sensitivity}
+
+{\large \textbf{Appendix A \\[.2cm] Experiment materials: 108 polar questions}}
+
+
+\begin{enumerate}[leftmargin=3ex,itemsep=-4pt]
+
+\item {\bf clean}
+
+\begin{enumerate}[leftmargin=2ex,itemsep=-4pt]
+\item Did Annie stop cleaning	/ clean again / clean thoroughly when / before Pete arrived?
+\item Did Bennie stop cleaning /clean again / clean thoroughly when / before Rick showed up?
+\item Did Charley stop cleaning / clean again / clean thoroughly	when / before Sam came by?
+\end{enumerate}
+
+\item {\bf shout}
+\begin{enumerate}[leftmargin=2ex,itemsep=-4pt]
+\item Did Betty stop shouting / shout again	/ shout wildly when / before the rock show ended?
+\item Did Freddy stop shouting / shout again	/ shout wildly	when / before the concert ended?
+\item Did Jeanny stop shouting	/ shout again / shout wildly	when / before the protest ended?
+\end{enumerate}
+
+\item {\bf yell}
+\begin{enumerate}[leftmargin=2ex,itemsep=-4pt]
+\item Did Margie stop yelling	/ yell again / yell sternly	when / before the player was injured?
+\item Did Nancy stop yelling / yell again / yell sternly when /	before the goalie was hurt?
+\item Did Lucy stop yelling	 / yell again / yell sternly when /	before the player was struck?
+\end{enumerate}
+
+
+\item {\bf bark}
+\begin{enumerate}[leftmargin=2ex,itemsep=-4pt]
+
+\item Did Fido stop barking	 / bark again / bark aggressively	when / before the storm came?
+\item Did Buddy stop barking / bark again / bark aggressively when /	before the mailman came?
+\item Did Bella stop barking / bark again / bark aggressively	when / before the lightning struck?
+\end{enumerate}
+
+
+\item {\bf knock}
+\begin{enumerate}[leftmargin=2ex,itemsep=-4pt]
+\item Did Vinny stop knocking / knock again	 / knock quietly	when / before the bell rang?
+\item Did Vicky stop knocking / knock again	 / knock quietly	when / before the phone rang?
+\item Did Mickey stop knocking	 / knock again / knock quietly	when / before the alarm rang?
+\end{enumerate}
+
+\item {\bf whistle}
+\begin{enumerate}[leftmargin=2ex,itemsep=-4pt]
+\item  Did Daisy stop whistling	 / whistle again / whistle tunefully when /	before she left?
+\item Did Maise stop whistling	/ whistle again	 / whistle tunefully when /	before she went out?
+\item Did Rosie stop whistling / whistle again	/ whistle tunefully	when / before she entered?
+\end{enumerate}
+
+
+\item {\bf speak}
+\begin{enumerate}[leftmargin=2ex,itemsep=-4pt]
+\item Did Maddy stop speaking / speak again	/ speak casually when /	before her boss entered?
+\item Did Zadie stop speaking	/ speak again	/ speak casually when / before the director came in?
+\item Did Johnny stop speaking / speak again	/ speak casually when / before his super arrived?
+\end{enumerate}
+
+
+\newpage
+
+\item {\bf walk}
+\begin{enumerate}[leftmargin=2ex,itemsep=-4pt]
+\item Did Lenny stop walking	/ walk again / walk slowly	when / before the sun went down?
+\item Did Molly stop walking / walk again / walk slowly	when / before the rain began?
+\item Did Abby stop walking	/  walk again	/ walk slowly when / before the storm started?
+\end{enumerate}
+
+
+
+\item {\bf smile}
+\begin{enumerate}[leftmargin=2ex,itemsep=-4pt]
+\item Did Eddie stop smiling / smile again / smile ironically when /	before the tune played?
+\item Did Teddy stop smiling / smile again / smile ironically	when / before the song came on?
+\item Did Danny stop smiling / smile again	/ smile ironically	when / before the band played?
+\end{enumerate}
+
+
+\item {\bf cry}
+\begin{enumerate}[leftmargin=2ex,itemsep=-4pt]
+\item Did Jamie stop crying	/ cry again	/ cry loudly when /	before the verdict came in?
+\item Did Addy stop crying	/ cry again	/ cry loudly when / before the award was announced?
+\item Did Katie stop crying	/ cry again	/ cry loudly when / before the prize was revealed?
+\end{enumerate}
+
+
+\item {\bf text} 
+\begin{enumerate}[leftmargin=2ex,itemsep=-4pt]
+\item Did Robbie stop texting	/ text again	/ text secretly	when / before Kim showed up?
+\item Did Sophie stop texting / text again	/ text secretly	when / before Tom walked in?
+\item Did Alfie stop texting  / text again	/ text secretly	when / before Dan arrived?
+\end{enumerate}
+
+
+\item {\bf giggle}
+\begin{enumerate}[leftmargin=2ex,itemsep=-4pt]
+\item Did Harry stop giggling / giggle again / giggle nervously	when / before the interview started?
+\item Did Ronny stop giggling	/ giggle again	/ giggle nervously	when / before the meeting began?
+\item Did Henry stop giggling / giggle again / giggle nervously	when / before the exam started?
+
+\end{enumerate}
+\end{enumerate}
+
+
+\bibliographystyle{chicago}
+\bibliography{/Users/tonhauser.1/Documents/bibliography}
+
+\end{document}

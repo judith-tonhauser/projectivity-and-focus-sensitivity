@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Tonhauser-etal-SuB2019.aux
+The style file: chicago.bst
+Database file #1: /Users/tonhauser.1/Documents/bibliography.bib
+Warning--empty publisher in vds-huitink2003
+You've used 62 entries,
+            2861 wiz_defined-function locations,
+            968 strings with 14379 characters,
+and the built_in function-call counts, 43629 in all, are:
+= -- 3734
+> -- 2801
+< -- 26
++ -- 815
+- -- 985
+* -- 3403
+:= -- 7811
+add.period$ -- 205
+call.type$ -- 62
+change.case$ -- 417
+chr.to.int$ -- 61
+cite$ -- 63
+duplicate$ -- 1420
+empty$ -- 2915
+format.name$ -- 1101
+if$ -- 8474
+int.to.chr$ -- 2
+int.to.str$ -- 0
+missing$ -- 63
+newline$ -- 314
+num.names$ -- 648
+pop$ -- 405
+preamble$ -- 2
+purify$ -- 796
+quote$ -- 0
+skip$ -- 1454
+stack$ -- 0
+substring$ -- 2409
+swap$ -- 528
+text.length$ -- 26
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 1176
+warning$ -- 1
+while$ -- 656
+width$ -- 0
+write$ -- 856
+(There was 1 warning)
