@@ -1,0 +1,20 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 2.3554421768707483 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "TextTier" 
+        name = "f0" 
+        xmin = 0 
+        xmax = 2.3554421768707483 
+        points: size = 2 
+        points [1]:
+            number = 0.11986719505482007 
+            mark = "1" 
+        points [2]:
+            number = 1.4094414650806382 
+            mark = "2" 
